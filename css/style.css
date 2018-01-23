@@ -1,0 +1,168 @@
+body {font-family: cursive}
+.container {width: 1170px;margin: auto}
+.clearfix {clear: both}
+/*Start Header*/
+.header {background-color: #000;width: 100%;height: 70px;position: fixed}
+.header h2 {color: #FFF;text-transform: uppercase;float: left}
+.header ul {float: right;list-style: none}
+.header ul li {display: inline-block;padding: 10px;}
+.header ul li a {text-decoration: none;color: #FFF}
+.header ul li a:hover,.header ul li a.active {color: #CCC}
+/*End Header*/
+
+/*Start About*/
+.about {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    height: 500px;
+    text-align: center
+}
+.about p {
+    margin: 0;
+    padding: 90px 50px 50px 50px;
+    color: #FFF;
+    font-size: 24px;
+    line-height: 40px
+}
+.about button,
+.blog .part .parag button {
+    background-color: #D84780;
+    color: #FFF;width: 200px;
+    height: 60px;font-size: 24px;
+    border: 0;cursor: pointer;
+    text-transform: uppercase;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -o-border-radius:10px;
+    border-radius:10px
+}
+/*End About*/
+
+/*Start Blog*/
+.blog {
+    background-color: #000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 1370px
+}
+.blog .part {
+    width: 32%;
+    float: left;
+    margin-left: 2%;
+    margin-bottom: 4%
+}
+.blog .part:first-child , .blog .part2 {margin-left: 0}
+.blog .part img {width: 100%}
+.blog .part .parag {
+    text-align: center;
+    margin-top: -3px;
+    padding: 20px;
+    background-color: #FFF;
+    -webkit-border-bottom-left-radius:10px;
+    -moz-border-bottom-left-radius:10px;
+    -o-border-bottom-left-radius:10px;
+    border-bottom-left-radius:10px;
+    -webkit-border-bottom-right-radius:10px;
+    -moz-border-bottom-right-radius:10px;
+    -o-border-bottom-right-radius:10px;
+    border-bottom-right-radius:10px
+}
+.blog .part .parag p {font-size: 20px;line-height: 30px}
+.blog .part .parag button {
+    width: 170px;
+    height: 50px;
+    font-size: 20px
+}
+.blog .parts {
+    width: 45%;
+    height: 200px;
+    color: #FFF;
+    font-family: Tahoma;
+    float: left;
+    margin-right: 5%;
+    margin-top: 3%
+}
+.blog .parts i {
+    width: 50px;
+    height: 100px;
+    float: left;
+    padding-top: 15px;
+    margin-right: 20px;
+}
+.blog .parts .sett h2 {text-transform: uppercase}
+.blog .parts .sett p {color: #CCC;line-height: 30px;text-align: center}
+/*End Blog*/
+
+/*Start Contact*/
+.contact {
+    height: auto;
+    background-color: #D84780;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+.contact .mauris {
+    width: 800px;
+    margin: auto;
+}
+.contact .mauris h2 {
+    margin-top: 0;
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+.contact .mauris p {
+    color: #F3F3F3;
+    text-transform: uppercase;
+}
+.contact .mauris form input {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border: 0;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    outline: 0
+}
+.contact .mauris form textarea {
+    width: 100%;
+    padding: 5px;
+    border: 0;
+    border-radius: 10px;
+    outline: 0
+}
+.contact .mauris form button {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    background: none;
+    border: 1px solid #DDD;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #FFF;
+    cursor: pointer;
+}
+/*End Contct*/
+/*Start Footer*/
+.footer {
+    background-color: #000;height: auto;text-align: center;
+    color: #FFF;
+}
+.footer p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 20px;
+    font-size: 20px
+}
+.footer a {
+    padding-right: 20px;
+    text-decoration: none;
+    cursor: pointer
+}
+.footer a i {
+    color: #CCC
+}
+/*End Foote*/
