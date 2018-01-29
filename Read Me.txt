@@ -1,7 +1,7 @@
 ******************************************************************
-========== Simple Site for Web Folk ==============
+========== Simple Site for Phase shift ==============
 
-Template1 using HTML & CSS
+Template2 using HTML & CSS
 
 ==> use HTML.
 
